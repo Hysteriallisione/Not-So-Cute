@@ -1,0 +1,9 @@
+Contenu dans la scene de prototype:
+
+- 2 game objects "cute" que l'on peut repeindre pour tester 
+- 1 game object "cute" apparaît et disparaît toutes les 4 secondes
+- obstacles trouvables dans le jeu selon les niveaux avec collider:
+			- trou
+			- mur
+			- rivière
+- 
