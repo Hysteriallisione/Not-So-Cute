@@ -4,8 +4,8 @@
 - repeindre les game objects apparus avec bouton A
 - trois coeurs = 3 vies
 - Apparition de Game object "cute" toutes les 3 secondes environ
-
-
+- Gameobject "cute", une fois appuyé sur A, destroy "cute" et instantiate "dark" gameobject
+- appuie sur A provoque particules noires (demi-seconde avant auto-self-destroy)
 
 Conditions:
 

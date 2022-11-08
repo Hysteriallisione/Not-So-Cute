@@ -1,0 +1,34 @@
+~~~~~slimmmeiske2's Resources~~~~~
+
+Terms of Use: 
+Credit is mandatory. 
+The resources included can be used in both commercial and non-commercial games, as long as the user owns RMMV for the Harold sprite and RMMZ for the others. 
+You are free to edit and share edits online, as long as you give credit.
+
+Contact Info: 
+In case you wish to contact me, you can send me a PM on the official forum: http://forums.rpgmakerweb.com/index.php?/user/4269-slimmmeiske2/
+If you don't have an account on the forum, feel free to e-mail me: annelies_michiels981@hotmail.com
+
+Details: 
+For ScaRestaff 2021, I dressed up our lovable RTP heroes in Halloween costumes. To help me decide which hero would wear what, I used a random number generator and it could not have chosen more perfect.
+This release includes:
+Reid as a fairy (both in costume and as an actual flying fairy - flower crowns included),
+Kasey as a zombie (both in costume and as an actual zombie),
+Gale as a warlock and witch,
+Michelle as a devil (both in costume and as an actual devil),
+Priscilla in a TwoFace/Dr. Jekyll-Mr. Hyde costume,
+Harold as a nurse.
+
+The sprites are edited from the MZ RTP, with the exception of Harold, which is edited from the MV RTP.
+
+Notes: 
+To be able to use the Harold sprites in MV/MZ, please do not remove the $ from the file name.
+I have done something similar in the past for the VX(Ace) heroes: https://forums.rpgmakerweb.com/index.php?threads/scarestaff-october-2015.45551/
+
+My resource threads:
+XP: https://forums.rpgmakerweb.com/index.php?threads/slims-sprites.9093/
+VX/Ace: https://forums.rpgmakerweb.com/index.php?threads/slims-vxa-sprites-and-icons.25123/
+MV: https://forums.rpgmakerweb.com/index.php?threads/slims-this-and-thats.46799/
+MZ: https://forums.rpgmakerweb.com/index.php?threads/slims-this-and-thats-mz-edition.125627/
+
+In case you have suggestions for MZ/MV/Ace/XP sprites, feel free to PM me/comment in my resource topics/comment in the Restaff topic and I'll see what I can do! ^^
