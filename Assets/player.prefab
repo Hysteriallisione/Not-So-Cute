@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8631279246049545841}
-  - component: {fileID: 8631279246049545840}
   - component: {fileID: 8631279246049545854}
   m_Layer: 0
   m_Name: extraComponent
@@ -33,27 +32,6 @@ Transform:
   m_Father: {fileID: 8631279246053511614}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &8631279246049545840
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8631279246049545855}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!95 &8631279246049545854
 Animator:
   serializedVersion: 4
@@ -64,7 +42,7 @@ Animator:
   m_GameObject: {fileID: 8631279246049545855}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71dcda1e9353cbd4d87ff3bc7b30c329, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -85,6 +63,7 @@ GameObject:
   - component: {fileID: 8631279246053511614}
   - component: {fileID: 8631279246053511615}
   - component: {fileID: 8631279246053511612}
+  - component: {fileID: 1505067817763137563}
   - component: {fileID: 8631279246053511613}
   m_Layer: 0
   m_Name: player
@@ -188,6 +167,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.33889464, y: 0.15968925}
   m_EdgeRadius: 0
+--- !u!50 &1505067817763137563
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631279246053511610}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!114 &8631279246053511613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,8 +200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf72b507a7bae9048aed140e3055ada6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidB: {fileID: 8631279246049545840}
-  rapide: 20
+  rigidB: {fileID: 1505067817763137563}
+  rapide: 2
   animaP: {fileID: 8631279246049545854}
   Horizontal: 0
   Vertical: 0
