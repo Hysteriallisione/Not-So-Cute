@@ -15,7 +15,7 @@ public class playerControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animaP = gameObject.GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
