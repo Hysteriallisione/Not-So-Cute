@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &883764883792877489
+--- !u!1 &5793507456014036503
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2919789823386923791}
-  - component: {fileID: 8866854696887351377}
-  - component: {fileID: 5819417654087690242}
+  - component: {fileID: 284846377124209268}
+  - component: {fileID: 3560843880267449096}
+  - component: {fileID: 849740388147915118}
   m_Layer: 0
-  m_Name: lolly3
+  m_Name: Chocolate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2919789823386923791
+--- !u!4 &284846377124209268
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883764883792877489}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2771, y: -3.2335, z: 0}
-  m_LocalScale: {x: 0.6292, y: 0.5211, z: 1}
+  m_GameObject: {fileID: 5793507456014036503}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.24, z: 0}
+  m_LocalScale: {x: 0.69628656, y: 0.6396264, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 903396536520619286}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 3583088167891642152}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8866854696887351377
+--- !u!212 &3560843880267449096
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883764883792877489}
+  m_GameObject: {fileID: 5793507456014036503}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -72,9 +71,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1475200283
+  m_SortingLayer: 9
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 845475d0fd023b548a15f63570515828, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -86,23 +85,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5819417654087690242
+--- !u!61 &849740388147915118
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883764883792877489}
+  m_GameObject: {fileID: 5793507456014036503}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006479919, y: -0.4420684}
+  m_Offset: {x: -0.0509755, y: 0.5299855}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.516096, y: 0.099063486}
     oldSize: {x: 2.5, y: 2.5}
     newSize: {x: 2.5, y: 2.5}
     adaptiveTilingThreshold: 0.5
@@ -110,9 +109,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.2537608, y: 1.0994647}
+  m_Size: {x: 2.263822, y: 1.2117575}
   m_EdgeRadius: 0
---- !u!1 &6978922263068601309
+--- !u!1 &6903228221849872964
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,8 +119,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 903396536520619286}
-  - component: {fileID: 8200202658415797795}
+  - component: {fileID: 3583088167891642152}
+  m_Layer: 0
+  m_Name: lolly3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3583088167891642152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6903228221849872964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 284846377124209268}
+  - {fileID: 1537350495047831420}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7390510453359701632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537350495047831420}
+  - component: {fileID: 3214497974326853405}
   m_Layer: 0
   m_Name: collider
   m_TagString: Untagged
@@ -129,34 +161,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &903396536520619286
+--- !u!4 &1537350495047831420
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6978922263068601309}
+  m_GameObject: {fileID: 7390510453359701632}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000000035524067, y: 0, z: 0}
-  m_LocalScale: {x: 1.58932, y: 1.9190176, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2919789823386923791}
-  m_RootOrder: 0
+  m_Father: {fileID: 3583088167891642152}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &8200202658415797795
+--- !u!58 &3214497974326853405
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6978922263068601309}
+  m_GameObject: {fileID: 7390510453359701632}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.022424517, y: 0}
+  m_Offset: {x: -0.010735154, y: 1.891737}
   serializedVersion: 2
-  m_Radius: 0.6284318
+  m_Radius: 0.8844104
