@@ -45,9 +45,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.14684844, y: 0.9604752}
+  m_Offset: {x: 0.1468482, y: -0.019875526}
   serializedVersion: 2
-  m_Radius: 0.86999226
+  m_Radius: 0.74186134
 --- !u!1 &2137447928246212555
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 736017769933043989}
   m_Layer: 0
   m_Name: lolly4
-  m_TagString: Untagged
+  m_TagString: Cute
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,7 +107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5597554457344731310}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.96, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.6803, y: 0.6721, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -152,9 +152,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1475200283
-  m_SortingLayer: 9
-  m_SortingOrder: 5
+  m_SortingLayerID: 419453225
+  m_SortingLayer: 7
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 3fe333b76865da14f8a89e7621eaadc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -183,17 +183,19 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: 1.2042722, y: -0.48234242}
-  - {x: 1.0674554, y: -0.123295784}
-  - {x: 0.6296424, y: 0.0980379}
+  - {x: 1.1024964, y: -0.10556152}
+  - {x: 0.6384027, y: 0.07143654}
   - {x: 0.10162312, y: 0.05547452}
-  - {x: -1.2291529, y: 0.2786823}
+  - {x: -0.8105529, y: 0.20847158}
+  - {x: -1.0714691, y: 0.1279415}
   - {x: -1.1358886, y: -0.09441519}
-  - {x: -0.6591016, y: -0.35784847}
-  - {x: -0.35319448, y: -0.19861162}
-  - {x: -0.36206633, y: -0.7681849}
-  - {x: 0.3344667, y: -1.1759704}
-  - {x: 0.98660797, y: -0.9927305}
-  - {x: 1.1616046, y: -0.81550676}
+  - {x: -0.6853823, y: -0.35784844}
+  - {x: -0.3269137, y: -0.21634583}
+  - {x: -0.33578572, y: -0.6795138}
+  - {x: 0.06289986, y: -1.0429636}
+  - {x: 0.4355266, y: -1.1062973}
+  - {x: 0.99536824, y: -0.93952787}
+  - {x: 1.1090432, y: -0.81550664}
   - {x: 1.1648808, y: -0.48234254}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}

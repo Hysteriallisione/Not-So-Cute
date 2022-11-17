@@ -13,4 +13,5 @@ Conditions:
 - 5>= de game object "cute" sur le terrain =>vert sur player
 - 8>= de game object "cute" sur le terrain => animation vomissement, une vie en moins
 -Défaite: 3 coeurs perdus, le décor entier l'écran devient rose
--Victoire: tous les game objects "cute" sont repeint, le sol devient noir
+-Victoire: tous les game objects "cute" sont transformés en object "dark", le sol devient noir
+- make a storyboard for "Vitoire" et "Défaite"

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8200897314856460480}
   m_Layer: 0
   m_Name: lolly5
-  m_TagString: Untagged
+  m_TagString: Cute
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,7 +59,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2262884035952294185}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.59, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.495, y: 0.5914, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -104,9 +104,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1475200283
-  m_SortingLayer: 9
-  m_SortingOrder: 5
+  m_SortingLayerID: 419453225
+  m_SortingLayer: 7
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: eec23b1e6b5be1f4aac6e227e2663bcf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.042989492, y: -0.6476777}
+  m_Offset: {x: -0.042989492, y: -0.65574}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -142,7 +142,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.1847434, y: 1.0127398}
+  m_Size: {x: 2.1847434, y: 0.8514941}
   m_EdgeRadius: 0
 --- !u!1 &6012635569897737245
 GameObject:
@@ -189,6 +189,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.021279931, y: 0.48234236}
+  m_Offset: {x: -0.021279931, y: -0.03975731}
   serializedVersion: 2
-  m_Radius: 0.7198914
+  m_Radius: 0.66505903

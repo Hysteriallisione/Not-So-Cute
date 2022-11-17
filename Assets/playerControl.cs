@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class playerControl : MonoBehaviour
 {
@@ -42,6 +43,19 @@ public class playerControl : MonoBehaviour
         {
             moove = false;
             animaP.SetBool("playerMove", false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Joystick1Button0))
+        {
+            animaP.SetBool("attack", true);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Tronc") || collision.gameObject.CompareTag("bush"))
+        {
+            colliderDP = false;
+            target = null;
         }
     }
     void FixedUpdate()
