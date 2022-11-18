@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2919321505709657270}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: Cute
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,9 +45,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1468482, y: -0.019875526}
+  m_Offset: {x: 0.10434878, y: -0.019875526}
   serializedVersion: 2
-  m_Radius: 0.74186134
+  m_Radius: 0.9674357
 --- !u!1 &2137447928246212555
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 736017769933043989}
   m_Layer: 0
   m_Name: lolly4
-  m_TagString: Cute
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

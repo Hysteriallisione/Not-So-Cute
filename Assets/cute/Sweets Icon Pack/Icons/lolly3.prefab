@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 3583088167891642152}
   m_Layer: 0
   m_Name: lolly3
-  m_TagString: Cute
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 3214497974326853405}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: Cute
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -189,6 +189,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010735154, y: 0.70531076}
+  m_Offset: {x: -0.0032545328, y: 0.7053108}
   serializedVersion: 2
-  m_Radius: 0.768495
+  m_Radius: 1.0153607

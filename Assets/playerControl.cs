@@ -12,6 +12,8 @@ public class playerControl : MonoBehaviour
     public float Horizontal;
     public float Vertical;
     private bool moove;
+    private bool colliderP;
+    private Collider2D target;
 
     // Start is called before the first frame update
     void Start()
@@ -45,20 +47,33 @@ public class playerControl : MonoBehaviour
             animaP.SetBool("playerMove", false);
         }
 
-        if (Input.GetKeyDown(KeyCode.Joystick1Button0))
+        if (Input.GetKeyDown(KeyCode.JoystickButton1) && colliderP)
         {
             animaP.SetBool("attack", true);
+        }
+        else
+        {
+            animaP.SetBool("attack", false);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Cute"))
+        {
+            colliderP = true;
+            target = collision;
+            Debug.Log("trigger has been touched");
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Tronc") || collision.gameObject.CompareTag("bush"))
+        if (collision.gameObject.CompareTag("Cute"))
         {
-            colliderDP = false;
+            colliderP = false;
             target = null;
         }
     }
-    void FixedUpdate()
+        void FixedUpdate()
     {
 
         rigidB.MovePosition(rigidB.position + playerVect * Time.fixedDeltaTime * rapide);
