@@ -50,6 +50,7 @@ public class playerControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.JoystickButton1) && colliderP)
         {
             animaP.SetBool("attack", true);
+            Destroy(target);
         }
         else
         {

@@ -41,7 +41,7 @@ public class spawner : MonoBehaviour
        //on random le Vector2
          
          int zone = Random.Range(0, borders.Length); 
-
+        // check si zone du collider occupée
         while (occupied[zone] == true)
         {
                 zone = Random.Range(0, borders.Length);
@@ -52,6 +52,7 @@ public class spawner : MonoBehaviour
             Random.Range(borders[zone].bounds.min.x, borders[zone].bounds.max.x),
             Random.Range(borders[zone].bounds.min.y, borders[zone].bounds.max.y));
               lastCute = Time.time;
+        // ne pas dépasser le nombre d'object Cute prédifini dans interface
            if(countCute < cuteMax)
            {
                Instantiate(cuteBox[randomCuBindex], pos, Quaternion.identity, cuteGroup);
@@ -59,7 +60,7 @@ public class spawner : MonoBehaviour
                countCute++;
                 occupied[zone] = true;
            }
-            //si un gameobject cute créé dans une zone de "borders", zone ne peut plus instantiate un autre object
+           
         }
        
     }

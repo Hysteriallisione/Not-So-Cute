@@ -154,6 +154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1537350495047831420}
   - component: {fileID: 3214497974326853405}
+  - component: {fileID: 314412600271540316}
   m_Layer: 0
   m_Name: collider
   m_TagString: Cute
@@ -192,3 +193,25 @@ CircleCollider2D:
   m_Offset: {x: -0.0032545328, y: 0.7053108}
   serializedVersion: 2
   m_Radius: 1.0153607
+--- !u!114 &314412600271540316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7390510453359701632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295bef98b8e74b3468116230cc56119b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 8631279246053511610, guid: 927827827c5fb564887ad81f720d3709, type: 3}
+  darkBox:
+  - {fileID: 6636961946413157161, guid: 2be7e853dc63b774f9fb2a10a8046d82, type: 3}
+  - {fileID: 4941420994785487863, guid: 17be9f66ea86a5447aea9eb34cd673cb, type: 3}
+  - {fileID: 4226148041822525337, guid: 6ae222b94cdba7246b5e840e3d25508a, type: 3}
+  - {fileID: 4174770980580198278, guid: 71400a64f01f2cb44be990abcd00728f, type: 3}
+  - {fileID: 2404076291042451548, guid: a3c63acf691839f4cadd68efde6fd531, type: 3}
+  darkGroup: {fileID: 0}
+  countDark: 0
+  cutePos: {x: 0, y: 0}
