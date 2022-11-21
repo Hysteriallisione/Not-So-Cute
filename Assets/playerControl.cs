@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 using static UnityEngine.GraphicsBuffer;
 
 public class playerControl : MonoBehaviour
@@ -14,11 +17,13 @@ public class playerControl : MonoBehaviour
     private bool moove;
     private bool colliderP;
     private Collider2D target;
+    private Transform darkGroup;
+    public GameObject[] darkBox;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+      
     }
 
     // Update is called once per frame
@@ -29,8 +34,8 @@ public class playerControl : MonoBehaviour
         playerVect = movingP.normalized * rapide;
         Horizontal = transform.position.x;
         Vertical = transform.position.y;
-       
-       
+        int randomDarBindex = Random.Range(0, darkBox.Length);
+
 
         if (movingP.magnitude > 0)
         {
@@ -50,7 +55,10 @@ public class playerControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.JoystickButton1) && colliderP)
         {
             animaP.SetBool("attack", true);
-            Destroy(target);
+            // destroy l'empty gameobject ("collider") contenant le collider "target"
+            Destroy(target.transform.parent.gameObject);
+            Debug.Log("j'essaie de tuer!!!");
+            Instantiate(darkBox[randomDarBindex], target.transform.position, Quaternion.identity, darkGroup);
         }
         else
         {

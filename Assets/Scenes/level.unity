@@ -9533,7 +9533,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   timePlaying: 100
-  cuteGroup: {fileID: 0}
   cuteBox:
   - {fileID: 8296995556516426056, guid: 458e103dd175e4c479da8fde4cd7c023, type: 3}
   - {fileID: 225191247761387750, guid: 583a745c4c7a63145a69281c3d33b514, type: 3}
@@ -12675,6 +12674,41 @@ PrefabInstance:
       propertyPath: rigidB
       value: 
       objectReference: {fileID: 423410408}
+    - target: {fileID: 8631279246053511613, guid: 927827827c5fb564887ad81f720d3709,
+        type: 3}
+      propertyPath: darkBox.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631279246053511613, guid: 927827827c5fb564887ad81f720d3709,
+        type: 3}
+      propertyPath: darkBox.Array.data[0]
+      value: 
+      objectReference: {fileID: 6636961946413157161, guid: 2be7e853dc63b774f9fb2a10a8046d82,
+        type: 3}
+    - target: {fileID: 8631279246053511613, guid: 927827827c5fb564887ad81f720d3709,
+        type: 3}
+      propertyPath: darkBox.Array.data[1]
+      value: 
+      objectReference: {fileID: 4941420994785487863, guid: 17be9f66ea86a5447aea9eb34cd673cb,
+        type: 3}
+    - target: {fileID: 8631279246053511613, guid: 927827827c5fb564887ad81f720d3709,
+        type: 3}
+      propertyPath: darkBox.Array.data[2]
+      value: 
+      objectReference: {fileID: 4226148041822525337, guid: 6ae222b94cdba7246b5e840e3d25508a,
+        type: 3}
+    - target: {fileID: 8631279246053511613, guid: 927827827c5fb564887ad81f720d3709,
+        type: 3}
+      propertyPath: darkBox.Array.data[3]
+      value: 
+      objectReference: {fileID: 4174770980580198278, guid: 71400a64f01f2cb44be990abcd00728f,
+        type: 3}
+    - target: {fileID: 8631279246053511613, guid: 927827827c5fb564887ad81f720d3709,
+        type: 3}
+      propertyPath: darkBox.Array.data[4]
+      value: 
+      objectReference: {fileID: 2404076291042451548, guid: a3c63acf691839f4cadd68efde6fd531,
+        type: 3}
     - target: {fileID: 8631279246053511614, guid: 927827827c5fb564887ad81f720d3709,
         type: 3}
       propertyPath: m_RootOrder

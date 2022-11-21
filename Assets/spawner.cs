@@ -11,7 +11,7 @@ public class spawner : MonoBehaviour
     private float lastCute;
     public AnimationCurve curveCute;
     public float timePlaying;
-    public Transform cuteGroup;
+    private Transform cuteGroup;
     public GameObject[] cuteBox;
     public int cuteMax;
     public int countCute;

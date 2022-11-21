@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2725984599838925431}
   m_Layer: 0
   m_Name: pilier4
-  m_TagString: Untagged
+  m_TagString: Dark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
