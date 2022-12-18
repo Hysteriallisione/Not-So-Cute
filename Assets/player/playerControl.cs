@@ -19,6 +19,7 @@ public class playerControl : MonoBehaviour
     private Collider2D target;
     private Transform darkGroup;
     public GameObject[] darkBox;
+    public GameManager GameM;
 
     // Start is called before the first frame update
     void Start()

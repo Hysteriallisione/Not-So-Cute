@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 8631279246053511615}
   - component: {fileID: 8631279246053511612}
   - component: {fileID: 1505067817763137563}
-  - component: {fileID: 8631279246053511613}
+  - component: {fileID: 6689910274667617093}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -241,7 +241,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8631279246053511613
+--- !u!114 &6689910274667617093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,14 +250,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 8631279246053511610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf72b507a7bae9048aed140e3055ada6, type: 3}
+  m_Script: {fileID: 11500000, guid: b9b47d73f2af2844298dbcdf52e7f6e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rigidB: {fileID: 1505067817763137563}
-  rapide: 2
+  rapide: 0
   animaP: {fileID: 8631279246049545854}
   Horizontal: 0
   Vertical: 0
+  darkBox:
+  - {fileID: 6636961946413157161, guid: 2be7e853dc63b774f9fb2a10a8046d82, type: 3}
+  - {fileID: 4941420994785487863, guid: 17be9f66ea86a5447aea9eb34cd673cb, type: 3}
+  - {fileID: 4226148041822525337, guid: 6ae222b94cdba7246b5e840e3d25508a, type: 3}
+  - {fileID: 4174770980580198278, guid: 71400a64f01f2cb44be990abcd00728f, type: 3}
+  - {fileID: 2404076291042451548, guid: a3c63acf691839f4cadd68efde6fd531, type: 3}
 --- !u!1 &8631279246295711416
 GameObject:
   m_ObjectHideFlags: 0
